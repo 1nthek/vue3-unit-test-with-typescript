@@ -50,8 +50,7 @@
   "lint-staged": {
     "*.{js, vue}": [
       "eslint --fix",
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ]
   }
 }
